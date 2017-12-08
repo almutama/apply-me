@@ -140,7 +140,7 @@ class Main extends React.Component {
     const jobs = this.state.savedJobs.map(job => {
       if (job.jobId === jobId) {
         job.favorite = !job.favorite;
-        favoriteStatus = job.favorite
+        favoriteStatus = job.favorite;
       }
       return job;
     });

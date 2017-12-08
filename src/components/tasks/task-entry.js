@@ -14,7 +14,7 @@ class TaskEntry extends React.Component {
     this.getJobInfo = this.getJobInfo.bind(this);
   }
   componentDidMount() {
-      this.getJobInfo(this.props.task.jobId);
+    this.getJobInfo(this.props.task.jobId);
   }
   getJobInfo(jobId) {
     const currentJob = this.props.savedJobs.filter(job => {

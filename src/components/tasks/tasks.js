@@ -109,7 +109,7 @@ class Tasks extends React.Component {
           <Error error={this.state.errorMessage} />
         </Card>
         <div>
-            {sortedByDate}
+          {sortedByDate}
         </div>
       </div>
     );
